@@ -1,0 +1,54 @@
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+}
+*   {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgba(226, 228, 122, 1);
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+h1  {
+    text-align: center;
+}
+button  {
+    margin-top: 10px;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+.table, .customer-form  {
+    margin-top: 20px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+.button-red {
+    color: white;
+    background-color: red;
+    width: 30%;
+    height: 2rem;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 20px;
+}
+.button-green{
+    color: white;
+    background-color:green;
+    width: 30%;
+    height: 2rem;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 20px;
+}
+.customer-form-field    {
+    width: 15rem;
+    display: block;
+}
+
