@@ -1,5 +1,4 @@
 html,body{
-    height: 100%;
     overflow-x: hidden;
 }
 *   {
@@ -7,11 +6,7 @@ html,body{
     font-family: sans-serif;
     background-color: rgba(226, 228, 122, 1);
 }
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  text-align: center;
-}
+
 h1  {
     text-align: center;
 }
@@ -22,7 +17,7 @@ section {
     display: flex;
     justify-content: center;
 }
-.table, .customer-form  {
+.customer-form  {
     margin-top: 20px;
 }
 .button {
@@ -50,5 +45,24 @@ section {
 .customer-form-field    {
     width: 15rem;
     display: block;
+}
+.table-wrapper  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.first-row  {
+    display: flex;
+    justify-content: space-evenly;
+    
+  
+}
+span    {
+    text-align: left;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    flex: 0 0 20%;
+	margin: 0 1%;
+    overflow: hidden;
 }
 
