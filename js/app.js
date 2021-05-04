@@ -63,12 +63,12 @@
         ] = days;
         let date = new Date();
         firstDay.innerHTML =`${new Date(date.setDate(date.getDate() + 1)).toDateString()}`;
-        secondDay.innerHTML =`${new Date(date.setDate(date.getDate() + 2)).toDateString()}`;
-        thirdDay.innerHTML=`${new Date(date.setDate(date.getDate() + 3)).toDateString()}`;
-        fourthDay.innerHTML=`${new Date(date.setDate(date.getDate() + 4)).toDateString()}`;
-        fifthDay.innerHTML=`${new Date(date.setDate(date.getDate() + 5)).toDateString()}`;
-        sixthDay.innerHTML=`${new Date(date.setDate(date.getDate() + 6)).toDateString()}`;
-        seventhDay.innerHTML = `${new Date(date.setDate(date.getDate() + 7)).toDateString()}`;  
+        secondDay.innerHTML =`${new Date(date.setDate(date.getDate() + 1)).toDateString()}`;
+        thirdDay.innerHTML=`${new Date(date.setDate(date.getDate() + 1)).toDateString()}`;
+        fourthDay.innerHTML=`${new Date(date.setDate(date.getDate() + 1)).toDateString()}`;
+        fifthDay.innerHTML=`${new Date(date.setDate(date.getDate() + 1)).toDateString()}`;
+        sixthDay.innerHTML=`${new Date(date.setDate(date.getDate() + 1)).toDateString()}`;
+        seventhDay.innerHTML = `${new Date(date.setDate(date.getDate() + 1)).toDateString()}`;  
     }
     
 
