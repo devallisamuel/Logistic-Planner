@@ -14,6 +14,7 @@ button  {
     margin-top: 10px;
 }
 section {
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -55,9 +56,7 @@ section {
     margin-top: .5rem;
     display: flex;
     justify-content: space-evenly;
-    max-width: 30rem;
-    
-  
+    max-width: 20rem;     
 }
 span    {
     width: 100%;
@@ -68,4 +67,9 @@ span    {
 	margin: 0 1%;
     overflow: hidden;
 }
-
+.table-head {
+    padding: 10rem;
+}
+.space-above    {
+    margin-top: 2rem;
+}
