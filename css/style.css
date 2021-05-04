@@ -52,12 +52,15 @@ section {
     justify-content: center;
 }
 .first-row  {
+    margin-top: .5rem;
     display: flex;
     justify-content: space-evenly;
+    max-width: 30rem;
     
   
 }
 span    {
+    width: 100%;
     text-align: left;
     margin-left: 1rem;
     margin-top: 1rem;

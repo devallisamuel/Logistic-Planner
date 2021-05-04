@@ -15,7 +15,7 @@
         } 
         else {
             id++
-         tasks = {
+            tasks = {
                 id:id,
                 customerName:custName.value,
                 pickupLocation:pickupLoc.value,
@@ -27,6 +27,7 @@
             dropOffLoc.value ="";
             console.log(queue);
             onAdd();
+            setDate();
         }
            
     }
@@ -35,7 +36,6 @@
     function onAdd   ()  {
         // udate the list of queue when called
         // map through queue
-                console.log(tasks);
                    let list = document.querySelector(".table-container");
                    let listItem = document.createElement("div");
                    listItem.className = "first-row";
@@ -49,6 +49,28 @@
                    list.append(listItem);
                 //    if statement for the other table
                }
+
+    function setDate    ()  {
+        var days = document.querySelectorAll('.days');
+        const [
+            firstDay,
+            secondDay,
+            thirdDay,
+            fourthDay,
+            fifthDay,
+            sixthDay,
+            seventhDay
+        ] = days;
+        let date = new Date();
+        firstDay.innerHTML =`${new Date(date.setDate(date.getDate() + 1)).toDateString()}`;
+        secondDay.innerHTML =`${new Date(date.setDate(date.getDate() + 2)).toDateString()}`;
+        thirdDay.innerHTML=`${new Date(date.setDate(date.getDate() + 3)).toDateString()}`;
+        fourthDay.innerHTML=`${new Date(date.setDate(date.getDate() + 4)).toDateString()}`;
+        fifthDay.innerHTML=`${new Date(date.setDate(date.getDate() + 5)).toDateString()}`;
+        sixthDay.innerHTML=`${new Date(date.setDate(date.getDate() + 6)).toDateString()}`;
+        seventhDay.innerHTML = `${new Date(date.setDate(date.getDate() + 7)).toDateString()}`;  
+    }
+    
 
     function onDelete    ()  {}
     
