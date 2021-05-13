@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 html,body{
     overflow-x: hidden;
 }
@@ -9,6 +10,8 @@ html,body{
 
 h1  {
     text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: darkviolet;
 }
 button  {
     margin-top: 10px;
@@ -17,6 +20,9 @@ section {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+table, th, td {
+  border: 1px solid black;
 }
 .customer-form  {
     margin-top: 20px;
@@ -72,4 +78,8 @@ span    {
 }
 .space-above    {
     margin-top: 2rem;
+}
+table   {
+    width: 30rem;
+    overflow-x: scroll;
 }
